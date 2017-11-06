@@ -1,0 +1,111 @@
+@media(max-width: 1024px) {
+  .subscribe_text_wpar h3{
+    font-size: 18px;
+  }
+}
+@media(max-width: 992px) {
+  .subcribe_button-wrap{
+    margin-top: 20px;
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .subcribe_button-wrap a{
+    width: 30%;
+  }
+  .contact .col-md-3{
+    margin-bottom: 20px;
+  }
+  footer .col-md-4{
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 40px;
+  }
+  .slider__description h1{
+    font-size: 32px;
+  }
+  .slider__description h5{
+    font-size: 18px;
+  }
+  .subscribe_text_wpar{
+    text-align: center;
+  }
+  .header_navbar li{
+  	margin-left: 10px;
+  }
+  .header_navbar a{
+    font-size: 13px;
+  }
+}
+@media(max-width: 767px) {
+  .header_navbar{
+    display: none;
+  }
+  .menu-toggle{
+    display: block;
+  }
+  .adaptive_navbar{
+    padding: 0;
+  }
+  .contact .col-md-3:first-child{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+}
+@media(max-width: 550px) {
+  .slider__description h5{
+    font-size: 14px;
+  }
+
+}
+@media(max-width: 480px) {
+  .about p{
+    font-size: 12px;
+  }
+  .subcribe_button-wrap a{
+    width: 60%;
+  }
+  .subscribe_text_wpar h3{
+    font-size: 16px;
+  }
+  .subscribe_text_wpar p{
+    font-size: 14px;
+  }
+  .services .col-md-4:hover {
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  .seveces_text_block p{
+    font-size: 13px;
+  }
+  .about p span{
+    display: none;
+  }
+  .slider__description h1{
+    font-size: 24px;
+  }
+  .slider__description h5{
+    font-size: 12px;
+  }
+  .slider__description{
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-bottom: 30px;
+  }
+}
